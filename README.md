@@ -24,7 +24,7 @@ Certifique-se de ter os seguintes requisitos instalados em sua máquina:
 1. Clone este repositório:
 
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone <https://github.com/LFernandoBernardes/L5.Networks_projeto.git>
    cd <NOME_DO_DIRETORIO_CLONADO>
    ```
 
@@ -78,4 +78,4 @@ npx playwright test tests/headers.spec.ts
 ## Contato
 
 Para dúvidas ou sugestões, entre em contato através do meu perfil do LinkedIn ou abra uma issue neste repositório.
-# L5.Networks_projeto
+

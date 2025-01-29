@@ -1,0 +1,21 @@
+{
+  "name": "l5.networks_projeto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "npx playwright test tests",
+    "test:e2e:dev": "npx playwright test tests/ --project=chromium --headed --retries=0 --reporter=line",
+    "test:e2e:smoke": "npx playwright test tests/ --grep @smoke --project=chromium",
+    "test:e2e:non-smoke": "npx playwright test tests/ --grep-invert @smoke --project=firefox"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.10.10"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
